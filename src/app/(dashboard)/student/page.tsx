@@ -2,7 +2,7 @@ import Announcements from "@/components/Announcements";
 import BigCalendar from "@/components/BigCalendar";
 import EventCalendar from "@/components/EventCalendar";
 
-export default function StudentPage() {
+export default function StudentPageList() {
     return(
         <div className="p-4 flex gap-4 flex-col xl:flex-row">
             {/* LEFT */}
