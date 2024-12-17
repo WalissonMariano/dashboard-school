@@ -24,7 +24,7 @@ export default function SingleStudentPage() {
                         </div>
                         <div className="w-2/3 flex flex-col justify-between gap-4">
                             <div className="flex items-center gap-4">
-                                <h1 className="text-xl font-semibold">Leonad Snyder</h1>
+                                <h1 className="text-xl font-semibold">Cameron Moran</h1>
                             </div>  
                             <p className="text-sm text-gray-500">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -75,8 +75,8 @@ export default function SingleStudentPage() {
                                 className="w-6 h-6" 
                             />
                             <div className="">
-                                <h1 className="text-xl font-semibold">2</h1>
-                                <span className="text-sm text-gray-400">Branches</span>
+                                <h1 className="text-xl font-semibold">6th</h1>
+                                <span className="text-sm text-gray-400">Grade</span>
                             </div>
                         </div>
                         {/* CARD */}
@@ -89,7 +89,7 @@ export default function SingleStudentPage() {
                                 className="w-6 h-6" 
                             />
                             <div className="">
-                                <h1 className="text-xl font-semibold">6</h1>
+                                <h1 className="text-xl font-semibold">18</h1>
                                 <span className="text-sm text-gray-400">Lesson</span>
                             </div>
                         </div>
@@ -103,7 +103,7 @@ export default function SingleStudentPage() {
                                 className="w-6 h-6" 
                             />
                             <div className="">
-                                <h1 className="text-xl font-semibold">7</h1>
+                                <h1 className="text-xl font-semibold">6A</h1>
                                 <span className="text-sm text-gray-400">Class</span>
                             </div>
                         </div>
@@ -111,7 +111,7 @@ export default function SingleStudentPage() {
                 </div>
                 {/* BOTTOM */}
                 <div className="mt-4 bg-white rounded-md p-4 h-[800px]">
-                    <h1>Teacher&apos;s Schedule</h1>
+                    <h1>Student&apos;s Schedule</h1>
                     <BigCalendar />
                 </div>
             </div>
@@ -120,11 +120,11 @@ export default function SingleStudentPage() {
             <div className="bg-white p-4 rounded-md">
                 <h1 className="text-xl font-semibold">Shortcuts</h1>
                 <div className="mt-4 flex gap-4 flex-wrap text-xs text-gray-500">
-                    <Link className="p-3 rounded-md bg-lamaSkyLight" href="/">Teacher&apos;s Classes</Link>
-                    <Link className="p-3 rounded-md bg-lamaPurpleLight" href="/">Teacher&apos;s Students</Link>
-                    <Link className="p-3 rounded-md bg-lamaYellowLight" href="/">Teacher&apos;s Lessons</Link>
-                    <Link className="p-3 rounded-md bg-pink-50" href="/">Teacher&apos;s Exams</Link>
-                    <Link className="p-3 rounded-md bg-lamaSkyLight" href="/">Teacher&apos;s Assignments</Link>
+                    <Link className="p-3 rounded-md bg-lamaSkyLight" href="/">Student&apos;s Lessons</Link>
+                    <Link className="p-3 rounded-md bg-lamaPurpleLight" href="/">Student&apos;s Teachers</Link>
+                    <Link className="p-3 rounded-md bg-lamaYellowLight" href="/">Student&apos;s Results</Link>
+                    <Link className="p-3 rounded-md bg-pink-50" href="/">Student&apos;s Exams</Link>
+                    <Link className="p-3 rounded-md bg-lamaSkyLight" href="/">Student&apos;s Assignments</Link>
                 </div>
             </div>
             <Performance />
